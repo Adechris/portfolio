@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Build output
+dist/
+build/
+public/js/bundle.js
+
+# Test coverage
+coverage/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env.local
+.env*.local
+
+# npm debug log
+npm-debug.log*
+
+# Yarn
+yarn-error.log
+yarn-debug.log*
+
+# Local History for Visual Studio Code
+.history/
