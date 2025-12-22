@@ -52,7 +52,12 @@ app.post('/send-email', (req, res) => {
     });
 });
 
-// Start the server
-app.listen(port, () => {
-    console.log(`Server is running at http://localhost:${port}`);
-});
+// Export the app for Vercel
+export default app;
+
+// Start the server if run directly
+if (process.argv[1] === __filename) {
+    app.listen(port, () => {
+        console.log(`Server is running at http://localhost:${port}`);
+    });
+}

@@ -53,6 +53,32 @@ a:focus {
     -moz-transition: ease-out 0.3s;
 }
 
+
+/* INITIALS */
+ 
+
+ .about-highlight {
+    /* background-color: #f8f9fa; */
+    height: 100%;
+    padding: 40px;
+    min-height: 400px;
+}
+
+.about-highlight h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color:red;
+    line-height: 1.2;
+}
+
+.about-highlight p {
+    font-size: 1.25rem;
+    color: red;
+}
+
+
+/* INITIAL ENDS */
+
 .btn:hover {
     color: #EF233C;
     background: transparent;
